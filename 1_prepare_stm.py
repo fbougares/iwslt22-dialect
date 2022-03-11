@@ -26,7 +26,7 @@ from collections import defaultdict
 # UM/ - uncertain + MSA
 # UO/ - uncertain + foreign
 
-arabic_filter = re.compile(r'[OUM]+/*|\u061F|\?|\!|\.')
+arabic_filter = re.compile(r'[OUM-]+/*|\u061F|\?|\!|\.')
 english_filter = re.compile(r'\(|\)|\#|\+|\=|\?|\!|\;|\.|\,|\"|\:')
 
 
